@@ -1,3 +1,5 @@
+<a href='https://coveralls.io/github/sodouglas/googler?branch=master'><img src='https://coveralls.io/repos/github/sodouglas/googler/badge.svg?branch=master' alt='Coverage Status' /></a>
+
 <h1 align="center"><img src="https://cdn.rawgit.com/jarun/googler/master/googler.svg" alt="googler" /></h1>
 
 <p align="center">

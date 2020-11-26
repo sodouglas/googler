@@ -30,3 +30,7 @@ jobs:
           hub release create --draft "${asset_options[@]}" --message "googler $tag" "$tag"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Coveralls
+        uses: coverallsapp/github-action@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
