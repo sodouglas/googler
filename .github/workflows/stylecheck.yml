@@ -16,7 +16,3 @@ jobs:
       - name: Style check with black
         run: |
           black --check --quiet --diff tests/*.py
-      - name: Coveralls
-        uses: coverallsapp/github-action@master
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
