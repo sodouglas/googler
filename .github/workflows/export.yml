@@ -1,11 +1,12 @@
 name: Export issues
 on:
+  push:
+  pull_request:
   schedule:
-    # run every 8 hours
-    - cron:  '0 0,8,16 * * *'
+    - cron: '0 0 * * *'
 jobs:
   deploy:
-    name: Export issues to S3
+    name: Export issues
     runs-on: ubuntu-latest
     steps:
     - name: Export issues
