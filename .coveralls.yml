@@ -1,1 +1,3 @@
-repo_token: ${{ secrets.GITHUB_TOKEN }}
+repo_token: ${{ secrets.COVERALLS_TOKEN }}
+service_name: googler
+parallel: true 
