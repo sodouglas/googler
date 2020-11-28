@@ -27,8 +27,8 @@ jobs:
           pytest
       - name: Test with pytest-cov
         run: |
-          pytest --cov=googler test_googler.py
-          
+          pytest --cov=googler
+
   coveralls_finish:
     needs: test
     runs-on: ubuntu-latest
